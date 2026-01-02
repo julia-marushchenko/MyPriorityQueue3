@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Creating a PriorityQueue instance.
-        PriorityQueue<Double> myQueue = new PriorityQueue<>();
+        PriorityQueue<Double> myQueue = new PriorityQueue<>(3);
 
         // Checking if myQueue is empty and printing to console
         System.out.println("Empty: " + myQueue.isEmpty()); // Output: true
